@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 // MUI
 import { Button, Pagination, Stack, Typography } from "@mui/material";
-import { textTransform } from "@mui/system";
 
 const ExerciseCard = ({ exercise }) => {
     return (
