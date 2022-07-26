@@ -24,7 +24,7 @@ const Navbar = () => {
                 <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/AmirSedaqat"
+                href="https://github.com/AmirSedaqat/Fitness-app.git"
                 style={{color:'#3A1212' , textDecoration:"none"}}
                 >
                     GitHub <GitHubIcon sx={{position:'relative',top:'2px'}}/>
