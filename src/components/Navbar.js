@@ -5,7 +5,6 @@ import { Stack } from "@mui/material";
 
 // assets
 import Logo from "../assets/images/Logo.png";
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Navbar = () => {
     return (
@@ -21,14 +20,7 @@ const Navbar = () => {
                 <a href="#exercise" style={{ textDecoration: "none", color: "#3A1212" }}>
                     Exercises
                 </a>
-                <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/AmirSedaqat/Fitness-app.git"
-                style={{color:'#3A1212' , textDecoration:"none"}}
-                >
-                    GitHub <GitHubIcon sx={{position:'relative',top:'2px'}}/>
-                </a>
+                
             </Stack>
         </Stack>
     );
