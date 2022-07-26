@@ -1,6 +1,6 @@
 import React from "react";
 // MUI
-import { Box, Stack, Typography, Button } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 
 // assets
 import HeroBannerImage from "../assets/images/banner.png";
@@ -32,12 +32,15 @@ const HeroBanner = () => {
             <Typography fontSize="20px" lineHeight="35px" mb={4}>
                 Check out the most effective exercises
             </Typography>
-            <Button variant="contained" color="error" href="#exercises"
-            sx={{
-                backgroundColor:"#ff2625",
-                padding:'15px',
-                fontSize:'15px'
-            }}
+            <Button
+                variant="contained"
+                color="error"
+                href="#exercises"
+                sx={{
+                    backgroundColor: "#ff2625",
+                    padding: "15px",
+                    fontSize: "15px",
+                }}
             >
                 Explore Exercises
             </Button>

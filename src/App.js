@@ -1,11 +1,12 @@
 import React from "react";
 // Styles
 import "./App.css";
-// Router-dom
-import { Routes, Route } from "react-router-dom";
 
 // MUI
 import { Box } from "@mui/material";
+
+// Router-dom
+import { Routes, Route } from "react-router-dom";
 
 // Import components
 import Navbar from "./components/Navbar";

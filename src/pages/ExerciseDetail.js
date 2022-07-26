@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-// Router-dom
-import { useParams } from "react-router-dom";
-
 // MUI
 import { Box } from "@mui/material";
 import { exerciseOptions, fetchData, youtubeOptions } from "../utils/fetchData";
+
+// Router-dom
+import { useParams } from "react-router-dom";
+
 
 // Import components
 import Detail from "../components/Detail";
